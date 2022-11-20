@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'TF2 Build';
+  src: url(../assets/tf/fonts/tf2build-webfont.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'TF2 Secondary';
+  src: url(../assets/tf/fonts/tf2secondary-webfont.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal
+}
+
+.class-btn {
+  display: flex;
+  justify-content: center;
+  max-width: 25%;
+}
+
+.class-btn > img {
+  width: 100%;
+}
+
+.classes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-row {
+  margin: 0.75em 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item-qua-normal, .item-qua-unique, .item-qua-bonus {
+  background: #1f1f1f;
+  border-width: 3px;
+  border-style: solid;
+  max-width: 31%;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.item-qua-normal {
+  border-color: #b2b2b2;
+}
+
+.item-qua-unique {
+  border-color: #ffd700;
+}
+
+.item-qua-bonus {
+  border-color: #45e4a7;
+}
+
+.item-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.item-img > a {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background-color: #ffffff1f;
+  border: transparent 6px solid;
+  border-radius: 15px;
+}
+
+.item-img > a > img {
+  width: 100%;
+}
+
+.item-att-name-qua-normal, .item-att-name-qua-unique, .item-att-name-qua-bonus {
+  font-size: 24px;
+  line-height: 16px;
+  text-shadow: 2px 1px 1px #24201B;
+  font-family: TF2 Build, Verdana, Geneva, sans-serif;
+}
+
+.item-att-name-qua-normal {
+  color: #b2b2b2;
+}
+
+.item-att-name-qua-unique {
+  color: #ffd700;
+}
+
+.item-att-name-qua-bonus {
+  color: #45e4a7;
+}
+
+.item-att-lvl, .item-att-pos, .item-att-neg, .item-att-neu {
+  font-size: 16.5px;
+  font-family: TF2 Secondary, Verdana, Geneva, sans-serif;
+}
+
+.item-att-lvl {
+  color: #756b5e;
+}
+
+.item-att-pos {
+  color: #99ccff;
+}
+
+.item-att-neg {
+  color: #ff4040;
+}
+
+.item-att-neu {
+  color: #ebe2ca;
+}
